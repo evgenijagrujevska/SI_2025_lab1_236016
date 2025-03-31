@@ -1,0 +1,81 @@
+SI lab1
+
+4. Правам локален репозиториум
+со git init команда го иницијализирам Git во директориумот
+
+5. git remote add origin git@github.com:evgenijagrujevska/SI_2025_lab1_236016.git
+- го Поврзувам локалниот репозиториум со оддалечениот репозиториум
+
+6.git add README.md
+git commit -m "Initial commit"
+
+7. git add SI2025Lab1Main.java
+git commit -m "Add starter code"
+
+8. git push -u origin master
+-се синхронизира гранката master со оддалечениот репозиториум.
+
+
+
+Дел 2
+
+13. git fetch origin
+
+14. git checkout 1-remove-a-task-by-name
+
+15. git add SI2025Lab1Main.java
+
+16. git commit -m "Implement function Remove a task by name"
+
+17. git push origin 1-remove-a-task-by-name
+
+
+
+14. git checkout 2-find-all-completed-tasks
+
+15. git add SI2025Lab1Main.java
+
+16. git commit -m "Implement function Find all completed tasks"
+
+17. git push origin 2-find-all-completed-tasks
+
+
+
+14. git checkout  3-list-tasks-sorted-by-name
+
+15. git add SI2025Lab1Main.java
+
+16. git commit -m "Implement function List tasks sorted by name"
+
+17. git push origin 3-list-tasks-sorted-by-name
+
+
+
+
+22. git checkout master
+git merge 5-sort-tasks-by-priority
+
+
+Прашање: Дали се случиле конфликти при извршување на наредбата, ако се случиле, како сте ги решиле (начинот за решавање на конфликти определете го сами како избор на еден од можните начини)
+
+Кај два од трите pull requests одобрени и споени со клик на копчето Merge pull request не се случија конфликти.
+Кај третата гранка која требаше да се спои кон кон гранката master локално со git команди настана конфликт кој го решив на следниот начин:
+git fetch (ги презедов најновите промени од remote репозиториумот)
+git merge origin/master (за спојување на промените)
+
+
+
+Прашање: Која стратегија била употребена за да се изврши спојувањето
+
+На првите два merge commit
+
+
+23.  git push origin master
+
+25. git log --oneline --graph --all > logs.txt
+git add logs.txt
+git add 236016.txt
+git commit -m "Final commit"
+
+26. git push origin master
+

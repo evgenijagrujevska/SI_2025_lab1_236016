@@ -1,0 +1,15 @@
+*   9adfa90 Merge remote-tracking branch 'origin/master'
+|\  
+| *   162aba5 Merge pull request #11 from evgenijagrujevska/2-find-all-completed-tasks
+| |\  
+| | * 9ff6b67 Implement function Find all completed tasks
+| * |   5deeee8 Merge pull request #10 from evgenijagrujevska/1-remove-a-task-by-name
+| |\ \  
+| | |/  
+| |/|   
+| | * c50ed79 Implement function Remove a task by name
+| |/  
+* / d3e9c9d Implement function List tasks sorted by name
+|/  
+* b69ffee Add starter code
+* 7b4bdf4 Initial commit
